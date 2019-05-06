@@ -10,10 +10,12 @@ https://www.youtube.com/watch?v=i8D90DkCLhI
 
 Bias - Variance Trade-off (Overfitting and Underfitting)
 
-Decision Tree- a greedy algorithm - important thing is: Arriving at a impurity function that improve the accuracy of the classifier  \
+Decision Tree- a greedy algorithm - important thing is: Arriving at a impurity function that improve the accuracy of the classifier(this turns out to be a inverted parabolic function)
 
-The Machine Learning Process as I know it so far: 
+The Machine Learning Process: 
 
 Using Pandas - import the dataframe
 Labeling and cleaning using NumPy - split into training data and testing data.
 From a high level, use Scikit Learn library to train a model (Parameter Adjustments must be made for specific cases)
+
+Three Blue One Brown Machine Learning Serie - Deep Learning Introduction
