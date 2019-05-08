@@ -43,6 +43,13 @@ Long-short term memory network - good for NLP
 ### Backpropagation 
 
   - the way the gradient vector is calculated
+  An intuitive way without all the calculus:
+  - based on the difference in cost function, adjust the weight of each connect 
+  - take a large amount of sample, average out all the different weight adjustments and you will "train" a neural network to recognize something!
+  
+  Structured Data without mislabeling can be trained on a steeper learning curve then miss labeled data
+  The machine is somehow picking up an underlying structure in the properly labelled data
+  The neural network can easily misclassify the type of images it has never seen before(hence all the papers about adding noise in an image to trick the neural network)
   
    
   
