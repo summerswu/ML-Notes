@@ -30,7 +30,7 @@ Long-short term memory network - good for NLP
   - Bias, a set value to offset the sigmoid activation function of each neuron, all this can be represented by a matrix multiplication as well as addition`
   Note: Sigmoid is kind of old school now, the new Industry standard is rectified linear unit(simplification)
   
-### Gradient Descent
+### Gradient Descent - converge to minimum of a cost function
   
   - finding the minimum of the cost function is the key to how neural network works
   - finding the average cost would give you how wrong this network is (this is really complicated with all the parameters)
@@ -39,6 +39,12 @@ Long-short term memory network - good for NLP
   - find the local minimum is not that hard, finding the global minimum is
   
   Gradient Descent is just doing this shit in the 3-D plane - gradient vector of a 3D space
+  
+  Stochastic Gradient Descent - training a small batch of samples and taking smaller but quicker step down to the bottom of the gradient
+  
+  you need a lot of training data!
+  
+  the acquisition of these labelled training data you actually need is really important
   
 ### Backpropagation 
 
