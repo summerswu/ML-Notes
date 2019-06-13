@@ -58,7 +58,10 @@ Long-short term memory network - good for NLP
   The neural network can easily misclassify the type of images it has never seen before(hence all the papers about adding noise in an image to trick the neural network)
   
    
-  
+### Loss Function vs Cost Function
+
+- Loss function calculates the loss at a single node
+- cost functtion aggregates the loss function
   
   
    
